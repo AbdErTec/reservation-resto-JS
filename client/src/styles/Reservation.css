@@ -1,0 +1,64 @@
+.reservation-page {
+  padding: 50px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+  min-height: 100vh;
+}
+
+.reservation-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+  color: #444;
+}
+
+.reservation-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.submit-button {
+  display: inline-block;
+  background: #ff7e67;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-button:hover {
+  background: #e86752;
+}

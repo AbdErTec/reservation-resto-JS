@@ -1,0 +1,95 @@
+.about-container {
+  padding: 40px 20px;
+}
+
+.about-hero {
+  background-color: #f76c5e;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.about-hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.about-hero-subtitle {
+  font-size: 1.5rem;
+}
+
+.restaurant-info {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.restaurant-info h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.restaurant-info p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.restaurant-location,
+.restaurant-rating,
+.restaurant-hours {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.stars {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+.about-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
